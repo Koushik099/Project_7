@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  /* background-color: yellow; */
+  height: 12vh;
+  width: 100vw;
+  margin-top: 18px;
+}
+
+nav div {
+  display: flex;
+}
+
+nav img {
+  height: 39px;
+  width: 106px;
+  margin-left: 70px;
+}
+
+.nav-logo {
+  width: 320px;
+  height: 109px;
+}
+
+nav div {
+  margin-left: 170px;
+}
+nav div h5 {
+  padding: 10px 30px;
+  font-size: 21px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+nav div h5:hover {
+  color: #fe704c;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.left-section {
+  margin-left: 70px;
+}
+
+.left-section h3 {
+  font-size: 41px;
+  font-family: "Fredoka", sans-serif;
+  margin-top: 41px;
+  font-weight: 400;
+}
+
+.left-section h3 img {
+  height: 42px;
+  width: 52px;
+}
+
+.left-section h1 {
+  font-size: 75px;
+  margin-top: 11px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.sub-headlines img {
+  height: 18px;
+  width: 18px;
+  padding: 7px;
+  border-radius: 22px;
+  background-color: #fe704c;
+  margin-right: 23px;
+}
+
+.sub-headlines h5 {
+  font-size: 25px;
+  margin-bottom: 7px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+}
+
+.sub-headlines {
+  margin-left: 95px;
+  margin-top: 18px;
+}
+
+.items {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.text {
+  width: 723px;
+  margin-left: 5px;
+  margin-top: 20px;
+  opacity: 0.4;
+  font-family: "Poppins", sans-serif;
+}
+
+.action-btns button {
+  padding: 9px 27px;
+  background-color: #fe5e35;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 24px;
+  margin: 30px 38px 0 0;
+  cursor: pointer;
+}
+
+.intro-section {
+  display: flex;
+}
+.headphone-div .headphone {
+  height: 412px;
+  margin-left: 34px;
+
+  width: 415px;
+}
+
+.discount-back {
+  position: absolute;
+  right: 422px;
+  top: 311px;
+  height: 139px;
+  width: 163px;
+}
+
+.discount-content {
+  position: absolute;
+  right: 459px;
+  top: 345px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.discount-content h4 {
+  font-size: 12px;
+  margin-left: 20px;
+}
+.discount-content h1 {
+  font-size: 45px;
+}
+
+.dots {
+  margin-left: 178px;
+  margin-top: 12px;
+}
+.dot {
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  border-radius: 14px;
+
+  margin-right: 20px;
+}
+
+.yellow-dot {
+  background-color: yellow;
+}
+.tomato-dot {
+  background-color: #fe5e35;
+}
+.black-dot {
+  background-color: black;
+}
+.action-btn {
+  padding: 9px 27px;
+  background-color: #fe5e35;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 24px;
+  margin: 15px 0px 0 165px;
+  cursor: pointer;
